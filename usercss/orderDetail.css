@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    background-color: #fff3e0;
+    background: url(images/teaBG.jpg);
+}
+
+#order-heading {
+    background-color: #edf4f7;
+    position: relative;
+    border-top-left-radius: 25px;
+    max-width: 800px;
+    padding-top: 20px;
+    margin: 30px auto 0px
+}
+
+#order-heading .text-uppercase {
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: 600
+}
+
+#order-heading .h4 {
+    font-weight: 600
+}
+
+#order-heading .h4+div p {
+    font-size: 0.8rem;
+    color: #777
+}
+
+.close {
+    padding: 10px 15px;
+    background-color: #777;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -20px
+}
+
+.wrapper {
+    padding: 0px 50px 50px;
+    max-width: 800px;
+    margin: 0px auto 40px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px
+}
+
+.table th {
+    border-top: none
+}
+
+.table thead tr.text-uppercase th {
+    font-size: 0.8rem;
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+.table tbody tr th,
+.table tbody tr td {
+    font-size: 0.9rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px
+}
+
+.table-responsive {
+    height: 100px
+}
+
+.list div b {
+    font-size: 0.8rem
+}
+
+.list .order-item {
+    font-weight: 600;
+    color: #6db3ec
+}
+
+.list:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+label {
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 900
+}
+
+button.btn {
+    font-size: 0.9rem;
+    background-color: #66cdaa
+}
+
+button.btn:hover {
+    background-color: #5cb99a
+}
+
+.price {
+    color: #5cb99a;
+    font-weight: 700
+}
+
+p.text-justify {
+    font-size: 0.9rem;
+    margin: 0
+}
+
+.row {
+    margin: 0px
+}
+
+.subscriptions {
+    border: 1px solid #ddd;
+    border-left: 5px solid #ffa500;
+    padding: 10px
+}
+
+.subscriptions div {
+    font-size: 0.9rem
+}
+
+@media(max-width: 425px) {
+    .wrapper {
+        padding: 20px
+    }
+    body {
+        font-size: 0.85rem
+    }
+    .subscriptions div {
+        padding-left: 5px
+    }
+    img+label {
+        font-size: 0.75rem
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/teaBg.jpg);
+}
+
+#burgundy {
+    color: pink
+}
+
+#orange {
+    color: purple
+}
+
+nav,
+.wrapper {
+    padding: 10px 50px
+}
+
+nav .logo a {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav div.ml-auto a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+header {
+    padding: 20px 0px
+}
+
+header .active {
+    font-weight: 700;
+    position: relative;
+}
+
+header .active .fa-check {
+    position: absolute;
+    left: 50%;
+    bottom: -27px;
+    background-color: pink;
+    font-size: 0.7rem;
+    padding: 5px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    color: #008000;
+}
+
+.progress {
+    height: 2px;
+    background-color: #ccc
+}
+
+.progress div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress .progress-bar {
+    width: 67%;
+}
+
+#details {
+    padding: 30px 50px;
+    min-height: 300px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.form-group .d-flex {
+    border: 1px solid #ddd;
+}
+
+.form-group .d-flex input {
+    width: 95%;
+}
+
+.form-group .d-flex:hover {
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #008000
+}
+
+select {
+    width: 100%;
+    padding: 8px 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+#address,
+#cart,
+#summary {
+    padding: 20px 50px;
+}
+
+#address .d-md-flex p.text-justify,
+#register p.text-muted {
+    margin: 0;
+}
+
+#register {
+    background-color: #d9ecf2;
+}
+
+#register a {
+    text-decoration: none;
+    color: #333;
+}
+
+#cart,
+#summary {
+    max-width: 500px;
+}
+
+.h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.h6 a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.item img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.item {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    font-weight: 800;
+    color: #fff;
+    background-color: #0033ff;
+    padding-left: 7px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    right: -5px
+}
+
+.display-5 {
+    font-size: 1.2rem;
+}
+
+#cart~p.text-muted {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+tr.text-muted td {
+    border: none;
+}
+
+.fa-minus,
+.fa-plus {
+    font-size: 0.7rem;
+}
+
+.table td {
+    padding: 0.3rem;
+}
+
+.btn.text-uppercase {
+    border: 1px solid #333;
+    font-weight: 600;
+    border-radius: 0px
+}
+
+.btn.text-uppercase:hover {
+    background-color: #333;
+    color: #eee;
+}
+
+.btn.text-white {
+    background-color: #66cdaa;
+    border-radius: 0px;
+}
+
+.btn.text-white:hover {
+    background-color: #3cb371;
+}
+
+.wrapper .row+div.text-muted {
+    font-size: 0.9rem;
+}
+
+.mobile,
+#mobile {
+    display: none;
+}
+
+.buttons {
+    vertical-align: text-bottom;
+}
+
+#register {
+    width: 50%;
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    .progress .progress-bar {
+        width: 33%;
+    }
+    #cart,
+    #summary {
+        max-width: 100%;
+    }
+    .wrapper div.h5.large,
+    .wrapper .row+div.text-muted {
+        display: none;
+    }
+    .mobile.h5,
+    #mobile {
+        display: block;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .progress .progress-bar {
+        width: 29%;
+    }
+    #cart,
+    #summary {
+        max-width: 100%;
+    }
+    .wrapper div.h5.large,
+    .wrapper .row+div.text-muted {
+        display: none;
+    }
+    .mobile.h5,
+    #mobile {
+        display: block;
+    }
+    .buttons {
+        width: 100%;
+    }
+}
+
+@media(max-width: 575px) {
+    .progress .progress-bar {
+        width: 38%;
+    }
+    #cart,
+    #summary {
+        max-width: 100%;
+    }
+    nav,
+    .wrapper {
+        padding: 10px 30px;
+    }
+    #register {
+        width: 100%;
+    }
+}
+
+@media(max-width: 424px) {
+    body {
+        width: fit-content;
+    }
+}
+
+@media(max-width: 375px) {
+    .progress .progress-bar {
+        width: 35%;
+    }
+    body {
+        width: fit-content;
+    }
+}
